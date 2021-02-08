@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<title>Find your temperature!!!!</title>
+    <head>
+        <link rel="stylesheet" href ="style.css">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image:url('https://i.pinimg.com/736x/7f/63/1e/7f631e577ed5e5ffbbce726f8ec03489.jpg') ;
+                background-position: no-repeat;
+                background-attachment:fixed;
+                background-size: 100% 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>
+            HELLO!!!!    FIND HOW THE DAY WILL BE !!!
+        </h1>
+        <h2>
+            IT WILL BE COLD OR WARM OR HOT!!!!
+        </h2>
+
+        <form id="searchBar">
+                <input type="search" placeholder="Enter Your City Name" id="city" required autocomplete="off">
+        <br>
+        </br>
+                <button id="searchButton">SEARCH</button>
+
+        </form>
+
+
+            <main id="info">
+                <div id="cityName">
+                    <p>!----------!</p>
+                </div>
+                    <div id="temp">
+                        <img id = "temp-icon" src="https://as2.ftcdn.net/jpg/01/14/24/43/500_F_114244324_HkVNU7BbaqHalaOfSUM4DjvwGygDEMRL.jpg" alt="">
+                        <p><span id="temp-value">!--------!</span><span id="temp-unit">&#176c</span></p>
+                    </div>
+
+                    <div id="weather">
+                        <p>!--------!</p>
+                    </div>
+            </main>
+
+        <script src ="app.js"></script>
+    </body>
+</html>

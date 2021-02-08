@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100px;
+    background-color: rgb(44, 4, 70);
+    text-align: center;
+   
+}
+
+#searchBar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#temp{
+    text-align: center;
+}
+
+#temp #temp-unit{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:1.5rem;
+    color:rgb(103, 153, 11);
+    border-bottom: 1px solid rgb(241, 147, 229);
+}
+
+#temp #temp-value{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:2rem;
+    color:rgb(103, 153, 11);
+    border-bottom: 1px solid rgb(230, 93, 211);
+    
+}
+
+#weather{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:2.5rem;
+    color:rgb(103, 153, 11);
+    text-align: center;
+    border-bottom: 1px solid rgb(248, 99, 228);
+}
+
+#cityName{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:3rem;
+    color:rgb(7, 60, 121);
+    text-align: center;
+    border-bottom: 1px solid rgb(241, 92, 222);
+}
+
+#temp-icon{
+    margin:1rem;
+    width:40%;
+    height:auto;
+}
+
+main{
+    padding:10px;
+    margin-top:10px;
+    background-color:rgb(225, 218, 230);
+    border:4px solid rgb(42, 144, 212);
+    border-radius: 25px;
+    width:360px;
+    height:400px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow:10px 10px 20px 20px rgba(235, 191, 236, 0.2);
+}
+
+#searchButton{
+    color:rgb(11, 20, 2);
+    text-decoration: none;
+    background-color: rgb(192, 241, 159);
+    border-radius:5px;
+    margin-left:5px;
+    padding:11px;
+    display :inline-block;
+    transition:0.3s;
+}
+#searchButton:hover{
+    background-color: rgb(111, 230, 38);
+}
+
+#city{
+    width:260px;
+    font-size: 20px;
+    margin:8px 0;
+    padding:8px 0 ;
+    border-radius: 3px solid rgb(183, 94, 235);
+}
+
