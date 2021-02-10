@@ -65,8 +65,8 @@ main{
     background-color:rgb(16, 4, 26);
     border:4px solid rgb(42, 144, 212);
     border-radius: 25px;
-    width:360px;
-    height:400px;
+    width:560px;
+    height:500px;
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -78,6 +78,7 @@ main{
     text-decoration: none;
     background-color: rgb(192, 241, 159);
     border-radius:5px;
+    border: 2px solid black;
     margin-left:5px;
     padding:11px;
     display :inline-block;
